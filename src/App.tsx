@@ -10,6 +10,7 @@ function App() {
 <MyComponent name="Jai Krishna Verma" num={10} isLoggedIn={true}/>
       </header>
     </div>
+  
   );
 }
 
