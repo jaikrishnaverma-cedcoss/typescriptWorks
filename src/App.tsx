@@ -2,13 +2,11 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import MyComponent from './pages/MyComponent';
-
+import { data } from './pages/data';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-<MyComponent name="Jai Krishna Verma" num={10} isLoggedIn={true}/>
-      </header>
+<MyComponent data={data}/>
     </div>
   
   );
